@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    text-align: center;
+}
+
+#btnAdd{
+    box-shadow: 7px 3px 3px black;
+    margin-right: 60px;
+   font-weight: bolder;
+    color: red;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 4%;
+    border: 2px solid black;
+    height: 700px;
+    width: 90%;
+
+    #marge{
+        
+        margin-top: 2%;
+        margin-left: 55%;
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+
+        input{
+            border: none;
+            background-color: transparent;
+        }
+    }
+
+    h3{
+        background-color: #284B63;
+        color: white;
+    }
+
+    #container1{
+        padding: 2%;;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-bottom: 2px solid rgb(5, 5, 5);
+        padding-bottom: 4%;
+        background-color: #284B63;
+        color: white;
+
+        #margeCalc, #pdvCalc{
+            color: white;
+        }
+    }
+
+    #tete{
+        height: 50px;
+        background-color: #381319;
+        color: white;
+    }
+
+    table{
+        width: 100%;
+
+        tr{
+            text-align: center;
+        }
+    }
+
+   
+
+    #btnSup{
+        position: absolute;
+        margin-left: 0.6%;
+        height: 15px;
+        width: 15px;
+    }
+
+    #btnEdit{
+        position: absolute;
+        margin-left: 1.8%;
+        height: 15px;
+        width: 15px;
+    }
+
+    #btnPlus{
+        height: 20px;
+        width: 20px;
+    }
+    #btnMoins{
+        margin-left: -10px;
+        height: 20px;
+        width: 20px;
+    }
+    #btnClear{
+        border-radius: 5px;
+        width: 95px;
+        height: 55px;
+        background-color: red;
+        color: white;
+    }
+}

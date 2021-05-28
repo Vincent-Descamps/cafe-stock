@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  text-align: center;
+}
+
+#btnAdd {
+  -webkit-box-shadow: 7px 3px 3px black;
+          box-shadow: 7px 3px 3px black;
+  margin-right: 60px;
+  font-weight: bolder;
+  color: red;
+}
+
+#container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 4%;
+  border: 2px solid black;
+  height: 700px;
+  width: 90%;
+}
+
+#container #marge {
+  margin-top: 2%;
+  margin-left: 55%;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#container #marge input {
+  border: none;
+  background-color: transparent;
+}
+
+#container h3 {
+  background-color: #284B63;
+  color: white;
+}
+
+#container #container1 {
+  padding: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 2px solid #050505;
+  padding-bottom: 4%;
+  background-color: #284B63;
+  color: white;
+}
+
+#container #container1 #margeCalc, #container #container1 #pdvCalc {
+  color: white;
+}
+
+#container #tete {
+  height: 50px;
+  background-color: #381319;
+  color: white;
+}
+
+#container table {
+  width: 100%;
+}
+
+#container table tr {
+  text-align: center;
+}
+
+#container #btnSup {
+  position: absolute;
+  margin-left: 0.6%;
+  height: 15px;
+  width: 15px;
+}
+
+#container #btnEdit {
+  position: absolute;
+  margin-left: 1.8%;
+  height: 15px;
+  width: 15px;
+}
+
+#container #btnPlus {
+  height: 20px;
+  width: 20px;
+}
+
+#container #btnMoins {
+  margin-left: -10px;
+  height: 20px;
+  width: 20px;
+}
+
+#container #btnClear {
+  border-radius: 5px;
+  width: 95px;
+  height: 55px;
+  background-color: red;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
