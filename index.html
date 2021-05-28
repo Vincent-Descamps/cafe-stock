@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gestion de stock</title>
+</head>
+
+<body>
+    <header>
+        <h1>-Le Café de la place-</h1>
+        <h2>Gestion des Stocks</h2>
+    </header>
+
+    <!--Premier container input des produits-->
+    <div id="container">
+        <h3>Ajouter un produit</h3>
+        <div id="container1">
+            <div>
+                <label>Nom produit</label>
+                <input type="text" id="name">
+            </div>
+            <div>
+                <label>Quantité</label>
+                <input type="number" id="quantity">
+            </div>
+            <div>
+                <label>Prix d'achat HT</label>
+                <input type="number" id="achatHt">
+            </div>
+            <div>
+                <label>Prix de vente HT</label>
+                <input type="number" id="venteHt">
+            </div>
+            <div>
+                <label>Type</label>
+                <!--checkbox boisson alco/non alcoo/Autre-->
+                <select name="type" id="type">
+                    <option value="">-Type de produit-</option>
+                    <option value="alcool">Alcool</option>
+                    <option value="soft">Soft</option>
+                    <option value="autre">Autre</option>
+                </select>
+            </div>
+            <div>
+                <label>Degré d'alcool</label>
+                <!--Si et seulement si boisson alcolisée-->
+                <input type="number" id="degree">
+            </div>
+            <div>
+                <button id="btnAdd">Ajouter</button>
+            </div>
+            <div id="marge">
+                <div>
+                    <label>Marge : </label>
+                    <input id="margeCalc" type="text">
+                </div>
+                <div>
+                    <label>Prix de vente TTC : </label>
+                    <input id="pdvCalc" type="text">
+                </div>
+            </div>
+        </div>
+
+
+
+        <table>
+            <tr id="tete">
+                <td>Produits</td>
+                <td>Quantité</td>
+                <td></td>
+                <td>Prix d'achat HT</td>
+                <td>Prix de vente HT</td>
+                <td>Marge</td>
+                <td>Prix de vente TTC</td>
+                <td>type</td>
+                <td>degré d'alcool</td>
+            </tr>
+            <tbody id="container2"></tbody>
+        </table>
+
+
+
+
+        <div>
+            <button id="btnClear">Clear LocalStorage</button>
+        </div>
+    </div>
+    <script src="Produits.js"></script>
+    <script src="updateDom.js"></script>
+    <script src="function.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
